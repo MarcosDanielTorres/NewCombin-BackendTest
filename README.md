@@ -11,7 +11,7 @@
     - [**Create payable**](#create-payable)
     - [**Unpaid payables**](#unpaid-payables)
 - [**Transaction Endpoint**](#transaction-endpoints)
-    - [**Create transaction**](#create-transactions)
+    - [**Create transaction**](#create-transaction)
     - [**Get transactions**](#get-transactions)
 - [**Imagenes de ejemplo**](#imagenes-de-ejemplo)
 # Introducción
