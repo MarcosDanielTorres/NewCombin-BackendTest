@@ -5,7 +5,7 @@ import Transaction from '../models/transaction';
 const getTransactions = async (req, res) => {
     try{
         let initial_date = req.query.initial_date;
-        let final_date = req.query.end_date;
+        let final_date = req.query.final_date;
 
         if(initial_date && final_date){
             initial_date = new Date(initial_date);
@@ -87,9 +87,9 @@ const createTransaction = async (req, res) => {
         payable.status = "paid";
         await payable.save();
 
-        res.status(201).send({
+        res.status(201).send(
            transaction
-        })
+        )
     }catch(err){
         res.status(400).send({
             error: err.message});

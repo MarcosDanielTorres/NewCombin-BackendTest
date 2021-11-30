@@ -48,9 +48,9 @@ const createPayable = async (req, res) => {
     try{
         const payable = new Payable(req.body);
         await payable.save();
-        res.status(201).send({
+        res.status(201).send(
             payable
-        })
+        )
     }catch(err){
         res.status(400).send({
             error: err});
