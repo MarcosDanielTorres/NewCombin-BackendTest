@@ -81,7 +81,7 @@ Lista aquellas boletas impagas en forma total o filtradas por tipo de servicio.
 
 - **URL Params**
 
-  None
+  service
 
 - **Data Params**
   None
@@ -163,7 +163,53 @@ Crea un nuevo objeto Transaction que va a representar un pago de un Payable y lo
 
   - **Code:** 400 BAD REQUEST <br />
     **Content:** `{ error : "..." }`
+    
+### Get Transactions
+---
 
+Lista aquellas transacciones entre un período de fechas, acumulando por día.
+
+- **URL**
+
+  /api/payables/unpaid?initial_date=&final_date= <br>
+  debe proporcionarse una fecha inicial y una final para que funcione correctamente.
+  
+- **Method:**
+
+  `GET`
+
+- **URL Params**
+
+  intial_date y final_date
+
+- **Data Params**
+  None
+  
+    
+- **Success Response:**
+
+  - **Code:** 201 <br />
+    **Content:** 
+    ```json
+    [
+      {
+          "total": 1234.2,
+          "number_of_transactions": 2,
+          "payment_date": "2021-12-20"
+      },
+      {
+          "total": 913.1,
+          "number_of_transactions": 2,
+          "payment_date": "2022-05-20"
+      }
+    ]
+    ```
+
+
+- **Error Response:**
+
+  - **Code:** 400 BAD REQUEST <br />
+    **Content:** `{ error : "..." }`
 
 ## Imagenes de ejemplo
 
