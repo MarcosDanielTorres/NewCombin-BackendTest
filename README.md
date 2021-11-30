@@ -23,6 +23,7 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
 1. En una terminal, ejecutar el comando `npm start` o bien `npm run watch` para iniciar el servidor.
 
 ## Consideraciones de diseño
+Se detalla brevemente las decisiones de diseño tomaadas a la hora de realizar la REST API.
 
 
 
