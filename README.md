@@ -13,6 +13,13 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
 
 ## Consideraciones de diseño
 
+## Tabla de endpoints
+- [**Payable Endpoint**](#payable-endpoints)
+    - [**Create payable**](#create-payable)
+    - [**Unpaid payables**](#unpaid-payables)
+
+
+
 ## Payable endpoints
 ### Create Payable
 ---
@@ -65,7 +72,7 @@ Crea un nuevo objeto Payable y lo retorna en formato JSON.
     **Content:** `{ error : "..." }`
     
     
-### Get Unpaid Payables
+### Unpaid Payables
 ---
 
 Lista aquellas boletas impagas en forma total o filtradas por tipo de servicio.
