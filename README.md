@@ -232,6 +232,8 @@ Lista aquellas transacciones entre un período de fechas, acumulando por día.
     **Content:** `{ error : "..." }`
 
 ## Imagenes de ejemplo
+Por favor, dirigirse a la carpeta imágenes donde se puede encontrar ejemplos de uso de los endpoints explayados anteriormente.
+
 
 [NewCombin]: https://newcombin.com/
 [desafio]: https://github.com/newcombin/devskillsback
