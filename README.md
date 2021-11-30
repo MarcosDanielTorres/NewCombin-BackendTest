@@ -1,3 +1,14 @@
+## Tabla de endpoints
+- [**Introducción**](#introducción)
+- [**Instalación**](#instalación)
+- [**Considreciones de diseño**](#consideraciones-de-diseño)
+- [**Payable Endpoint**](#payable-endpoints)
+    - [**Create payable**](#create-payable)
+    - [**Unpaid payables**](#unpaid-payables)
+- [**Transaction Endpoint**](#transaction-endpoints)
+    - [**Create transaction**](#create-transactions)
+    - [**Get transactions**](#get-transactions)
+- [**Imagenes de ejemplo**](#imagenes-de-ejemplo)
 # Introducción
 Este proyecto resuelve el [desafio] proporcionado por NewCombin que busca evaluar conocimientos en la creación de Backends. 
 
@@ -13,13 +24,7 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
 
 ## Consideraciones de diseño
 
-## Tabla de endpoints
-- [**Payable Endpoint**](#payable-endpoints)
-    - [**Create payable**](#create-payable)
-    - [**Unpaid payables**](#unpaid-payables)
-- [**Transaction Endpoint**](#transaction-endpoints)
-    - [**Create transaction**](#create-transactions)
-    - [**Get transactions**](#get-transactions)
+
 
 
 ## Payable endpoints
