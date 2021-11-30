@@ -30,7 +30,7 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
 ## Consideraciones de diseño
 Se detalla brevemente algunas de las decisiones de diseño a la hora de realizar la REST API.
 
-Primero se crearon dos colecciones, una llamada Playable y otra llamada Transaction. Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
+Primero se crearon dos colecciones, una llamada Payable y otra llamada Transaction. Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
 * Payable:
     * Tipo de servicio  -> service
     * Descripción del servicio -> description
