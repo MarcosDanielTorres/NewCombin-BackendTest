@@ -19,7 +19,7 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
     - [**Unpaid payables**](#unpaid-payables)
 - [**Transaction Endpoint**](#transaction-endpoints)
     - [**Create transaction**](#create-transactions)
-    - [**get transactions**](#get-transactions)
+    - [**Get transactions**](#get-transactions)
 
 
 ## Payable endpoints
