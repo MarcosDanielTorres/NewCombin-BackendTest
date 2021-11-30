@@ -30,7 +30,21 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
 ## Consideraciones de diseño
 Se detalla brevemente las decisiones de diseño tomaadas a la hora de realizar la REST API.
 
+Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
+Payable:
+    * Tipo de servicio  -> service
+    * Descripción del servicio -> description
+    * Fecha de vencimiento -> expiration_date
+    * Importe del servicio -> amount
+    * Status del pago -> status
+    * Código de barra-> barcode
 
+Transaction:
+    * Método de pago -> payment_method
+    * Número de la tarjeta -> card_number
+    * Importe del pago -> amount_paid
+    * Código de barra -> barcode
+    * Fecha de pago -> payment_date
 
 
 ## Payable endpoints
