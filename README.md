@@ -30,7 +30,7 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
 ## Consideraciones de diseño
 Se detalla brevemente algunas de las decisiones de diseño a la hora de realizar la REST API.
 
-Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
+Primero se crearon dos colecciones, una llamada Playable y otra llamada Transaction. Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
 * Payable:
     * Tipo de servicio  -> service
     * Descripción del servicio -> description
@@ -46,8 +46,13 @@ Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
     * Código de barra -> barcode
     * Fecha de pago -> payment_date
 
-Por otro lado, se decidió hacer uso de enumerados en la definición de los esquemas de las colecciones. Principalmente en service de Payable y de payment_method de Transaction.
+Por otro lado, se decidió hacer uso de enumerados en la definición de algunos atributos de los esquemas de las colecciones. Principalmente en service de Payable y payment_method de Transaction. Esto es porque dichos atributos solo pueden contener uno de varios valores predeterminados. En esencia: service es "Gas"o  "Water" o "Electricity" y un payment_method puede ser o "cash", o "debit_card", o "credit_card". Por lo tanto, se vio justificado.
 
+### Bibliotecas utilizadas:
+* mongoose
+* express
+* nodemon
+* babel
 ## Payable endpoints
 ### Create Payable
 ---
