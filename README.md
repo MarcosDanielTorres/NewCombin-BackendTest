@@ -1,3 +1,8 @@
+<h1 align="center">
+  <img src="images/newcombin-banner.jpg" alt="NewCombin Banner" />
+</h1>
+
+
 ## Tabla de contenidos
 - [**Introducción**](#introducción)
 - [**Instalación**](#instalación)
