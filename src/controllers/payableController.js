@@ -1,6 +1,6 @@
 import Payable from '../models/payable';
 
-const getPayables = async (req, res) => {
+const getUnpaidPayables = async (req, res) => {
     try{
         if(req.query.service){
             const payables = await Payable.find({
@@ -57,4 +57,4 @@ const createPayable = async (req, res) => {
     }
 }
 
-export default {getPayables, createPayable};
+export default {getUnpaidPayables, createPayable};
