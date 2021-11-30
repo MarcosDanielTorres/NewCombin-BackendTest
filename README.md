@@ -1,4 +1,4 @@
-## Tabla de endpoints
+## Tabla de contenidos
 - [**Introducción**](#introducción)
 - [**Instalación**](#instalación)
 - [**Considreciones de diseño**](#consideraciones-de-diseño)
