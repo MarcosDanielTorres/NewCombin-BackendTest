@@ -15,7 +15,7 @@
     - [**Get transactions**](#get-transactions)
 - [**Imagenes de ejemplo**](#imagenes-de-ejemplo)
 # Introducción
-Este proyecto resuelve el [desafio] proporcionado por NewCombin que busca evaluar conocimientos en la creación de Backends. 
+Este proyecto resuelve el [desafio] proporcionado por [NewCombin] que busca evaluar conocimientos en la creación de Backends. 
 
 Se implementa una REST API utilizando NodeJS para una versión súper simplificada de un proveedor de servicios de pago de impuestos.
 
@@ -233,6 +233,7 @@ Lista aquellas transacciones entre un período de fechas, acumulando por día.
 
 ## Imagenes de ejemplo
 
+[NewCombin]: https://newcombin.com/
 [desafio]: https://github.com/newcombin/devskillsback
 [node]: https://nodejs.org
 [mongo]: https://www.mongodb.com
