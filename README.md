@@ -6,7 +6,7 @@
 ## Tabla de contenidos
 - [**Introducción**](#introducción)
 - [**Instalación**](#instalación)
-- [**Considreciones de diseño**](#consideraciones-de-diseño)
+- [**Consideraciones de diseño**](#consideraciones-de-diseño)
 - [**Payable Endpoint**](#payable-endpoints)
     - [**Create payable**](#create-payable)
     - [**Unpaid payables**](#unpaid-payables)
@@ -31,7 +31,7 @@ Se implementa una REST API utilizando NodeJS para una versión súper simplifica
 Se detalla brevemente las decisiones de diseño tomaadas a la hora de realizar la REST API.
 
 Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
-Payable:
+* Payable:
     * Tipo de servicio  -> service
     * Descripción del servicio -> description
     * Fecha de vencimiento -> expiration_date
@@ -39,7 +39,7 @@ Payable:
     * Status del pago -> status
     * Código de barra-> barcode
 
-Transaction:
+* Transaction:
     * Método de pago -> payment_method
     * Número de la tarjeta -> card_number
     * Importe del pago -> amount_paid
