@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="images/newcombin-banner.jpg" alt="NewCombin Banner" />
+  <img src="images/newcombin-banner.png" alt="NewCombin Banner" />
 </h1>
 
 
