@@ -46,6 +46,7 @@ Se optó por traducir los atributos de las colecciones al inglés, por lo tanto:
     * Código de barra -> barcode
     * Fecha de pago -> payment_date
 
+Por otro lado, se decidió hacer uso de enumerados en la definición de los esquemas de las colecciones. Principalmente en service de Payable y de payment_method de Transaction.
 
 ## Payable endpoints
 ### Create Payable
@@ -246,7 +247,7 @@ Lista aquellas transacciones entre un período de fechas, acumulando por día.
     **Content:** `{ error : "..." }`
 
 ## Imagenes de ejemplo
-Por favor, dirigirse a la carpeta `images` se puede encontrar ejemplos de uso de los endpoints explayados anteriormente.
+Por favor, dirigirse a la carpeta `images` donde se encuentran ejemplos de uso de los endpoints explayados anteriormente.
 
 
 [NewCombin]: https://newcombin.com/
